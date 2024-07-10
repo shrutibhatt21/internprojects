@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA - Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+       <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servicea">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Designer</p>
+                <h1>Hi, I'm <span>Shruti</span> Bhatt<br> from Vadodara</h1>
+            </div>
+        </div>
+       </div>
+
+       <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image2.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hii, I a'm Shruti Bhatt. I am passionate web developer with a strong background in HTML,CSS & JavaScript. I have experience in building responsive and user-friendly websites using modern technologies.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>web Developer</span><br>Frontend Developer using HTML, CSS, & JavaScript.</li>
+                            <li><span>IOT Developer</span><br>I have develop, manage, and monitor IoT devices and systems by combining three core components: data, technology, and research.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="services.1.jpeg">
+                    <h2>Web app development</h2>
+                    <p>
+                        I am  describes the process of designing, building, testing and deploying web-based applications.
+                    </p>
+                </div>
+                <div>
+                    <img src="services.2.jpeg">
+                    <h2>IOT developer</h2>
+                    <p>
+                        I have develop, manage, and monitor IoT devices and systems by combining three core components: data, technology, and research.
+                    </p>
+                </div>
+                <div>
+                    <img src="services.3.jpeg">
+                    <h2>Android Developer</h2>
+                    <p>
+                        Android developer is responsible for developing applications for devices powered by the Android operating system.
+                    </p>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Netflix Homepage Output.jpg">
+                    <div class="layer">
+                        <h3>Netflix HomePage</h3>
+                        <p>I have created Netflix HomePage using HTML, & CSS.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Resturant HomePage.jpg">
+                    <div class="layer">
+                        <h3>Resturant HomePage</h3>
+                        <p>I have created Resturant HomePage using HTML, & CSS.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="my portfolio.jpeg">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>I have created My Personal Portfolio using HTML, & CSS.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="temperature convert.jpeg">
+                    <div class="layer">
+                        <h3>Tempateture</h3>
+                        <p>I have created Temperature Convert using HTML, CSS, & JavaScript.</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+       </div>
+
+       <div class="contact">
+        <div class="container">
+            <div class="row">
+                <h1 class="heading-text">Contact Me</h1>
+                <form>
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email Id" name="email id" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message..." required>
+                    </textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+       </div>
+
+    </body>
+</html>
